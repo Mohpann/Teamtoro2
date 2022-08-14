@@ -48,14 +48,13 @@ export const NavBar = () => {
             <Nav className="ms-auto">
               <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>  
               <Nav.Link href="/Fighters" className={activeLink === 'Fighters' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Fighters')}>Fighters</Nav.Link>
+              <Nav.Link href="/Schedule" className={activeLink === 'Schedule' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Schedule')}>Schedule</Nav.Link>
+              <Nav.Link href="/Contact" className={activeLink === 'Contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Contact')}>Contact Us</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.facebook.com/Team-TORO-Muay-Thai-196321693761082/"><img src={navIcon2} alt="facebook" /></a>
               </div>
-              <HashLink to='/Contact'>
-                <button className="vvd"><span>Contact Us</span></button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>

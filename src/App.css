@@ -14,8 +14,35 @@
 	src: url('./assets/font/CentraNo2-Book.ttf');
 	font-weight: 400;
 }
+/************ My Custom Css ************/
+.green {
+  background-color: rgb(221, 255, 221);
+  color: black;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  }
 
-/************ Default Css ************/
+.custom-form {
+  padding: 150px 0px;
+}
+.contact-header {
+  text-align: center;
+}
+
+.Home {
+  padding: 40px 200px 20px;
+  position: relative;
+}
+
 .fighter-card p {
   color: black;
 }
@@ -27,7 +54,7 @@
 .intro {
   padding: 30px 100px 20px;
 }
-
+/************ Default Css ************/
 * {
   margin: 0;
   padding: 0;
@@ -107,7 +134,7 @@ nav.navbar {
   transition:  0.32 ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 0px 0px;
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
@@ -132,6 +159,7 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    padding-top: 10px;
 }
 .social-icon a {
     width: 42px;
@@ -556,11 +584,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 0 0 30px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: "fixed",
 }
 .newsletter-bx {
   background: #FFFFFF;

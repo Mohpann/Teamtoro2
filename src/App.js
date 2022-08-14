@@ -3,8 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
-import { Fighters } from "./components/Fighters.js";
-import { Contact} from "./components/Contact"
+import { Fighters } from "./components/Fighters";
+import { Contact } from "./components/Contact"
+import { Schedule } from "./components/Schedule"
 //const API_URL = 'http://www.omdbapi.com?apikey=101c6e93';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       break
     case "/Contact":
       component = <Contact />
+      break
+    case "/Schedule":
+      component = <Schedule />
       break
   }
   return (
