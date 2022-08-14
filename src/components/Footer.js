@@ -13,6 +13,9 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col>
+            <p>Developed by <a href="https://github.com/Mohpann">Connor Hunter</a></p>
+          </Col>
+          <Col>
             <p>"The only true MT gym in Illinois" - Shlomi Albert</p>
           </Col>
           <Col className="text-center text-sm-end">
