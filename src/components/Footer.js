@@ -1,8 +1,9 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import logo from '../assets/img/logo5_edit.png';
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 export const Footer = () => {
   return (
@@ -25,6 +26,7 @@ export const Footer = () => {
             <p>Link to Facebook</p>
           </Col>
         </Row>
+        <Nav.Link style={{textAlign: "center", fontWeight: 800,color:"white", backgroundColor:"Chartreuse", fontSize: 18, opacity: 0.75}} href="https://cp.mystudio.io/t/?=MLir1u/10610/32597//1685482680" >FIRST CLASS FREE</Nav.Link>
       </Container>
     </footer>
   )

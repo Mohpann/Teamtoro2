@@ -10,6 +10,7 @@ import {
   Link
 } from "react-router-dom";
 import { Fighters } from "../components/Fighters.js";
+import Card from 'react-bootstrap/Card';
 
 export const NavBar = () => {
 
@@ -37,6 +38,7 @@ export const NavBar = () => {
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Nav.Link style={{fontWeight: 800,color:"white", backgroundColor:"Chartreuse", fontSize: 18, opacity: 0.75}} href="https://cp.mystudio.io/t/?=MLir1u/10610/32597//1685482680" >FIRST CLASS FREE</Nav.Link>
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
@@ -50,6 +52,7 @@ export const NavBar = () => {
               <Nav.Link href="/Fighters" className={activeLink === 'Fighters' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Fighters')}>Fighters</Nav.Link>
               <Nav.Link href="/Schedule" className={activeLink === 'Schedule' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Schedule')}>Schedule</Nav.Link>
               <Nav.Link href="/Contact" className={activeLink === 'Contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Contact')}>Contact Us</Nav.Link>
+              <Nav.Link href="https://cp.mystudio.io/t/?=MLir1u/10610/32597//1685482680" className={activeLink === 'FreeTrial' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('FreeTrial')}>FREE CLASS</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -58,7 +61,9 @@ export const NavBar = () => {
             </span>
           </Navbar.Collapse>
         </Container>
+        <Nav.Link style={{fontWeight: 800,color:"white", backgroundColor:"Chartreuse", fontSize: 18, opacity: 0.75}} href="https://cp.mystudio.io/t/?=MLir1u/10610/32597//1685482680" >FIRST CLASS FREE</Nav.Link>
       </Navbar>
     </Router>
+    
   )
 }

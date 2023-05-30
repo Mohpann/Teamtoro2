@@ -6,6 +6,7 @@ import { Home } from "./components/Home";
 import { Fighters } from "./components/Fighters";
 import { Contact } from "./components/Contact"
 import { Schedule } from "./components/Schedule"
+
 //const API_URL = 'http://www.omdbapi.com?apikey=101c6e93';
 
 function App() {
